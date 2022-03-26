@@ -31,6 +31,12 @@
     
 }
 
+@media (max-width:768px){
+    .bannerButton{
+        width: 25%;
+    }
+}
+
 .bannerButton:hover{
     background-color: white;
     color: rgb(51, 51, 51);
