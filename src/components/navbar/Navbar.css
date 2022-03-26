@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     /* height: 11vh; */
+    /* transition: all 0.5s; */
     
 }
 
@@ -15,7 +16,7 @@
     height: 11vh;
 
     /* Animation */
-    transition: all 0.5s ease-in;
+    transition: all 0.5s;
 }
 
 
@@ -34,4 +35,18 @@
     top: 13px;
     /* top: 10px; */
     cursor: pointer;
+}
+
+@media (max-width:768px){
+    .avatar{
+        width: 7%;
+    }
+
+    .logo{
+        width: 15%;
+    }
+
+    .navBackground{
+        height: 7vh;
+    }
 }
